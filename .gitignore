@@ -1,0 +1,19 @@
+# Model weights & checkpoints
+*.pt
+*.pth
+*.safetensors
+checkpoint-*/
+runs/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.egg-info/
+
+# Data (raw images handled via HuggingFace, not git)
+data/raw/
+
+# OS
+.DS_Store
